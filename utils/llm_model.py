@@ -2,8 +2,8 @@ import os
 from langchain_openai import AzureChatOpenAI
 
 
-os.environ["AZURE_OPENAI_API_KEY"] = "e971867bb3a34fca9edad6ab96c35ca1"
-os.environ["AZURE_OPENAI_ENDPOINT"] = "https://apac-openai-test.openai.azure.com/"
+os.environ["AZURE_OPENAI_API_KEY"] = ""
+os.environ["AZURE_OPENAI_ENDPOINT"] = "https://--.openai.azure.com/"
 
 # model
 llm = AzureChatOpenAI(
